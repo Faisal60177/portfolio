@@ -72,8 +72,8 @@ export default function Contact() {
                         <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--muted)' }}>
                             I'm currently available for{' '}
                             <span style={{ color: 'var(--cyan)' }}>freelance projects</span> and{' '}
-                            <span style={{ color: 'var(--green)' }}>full-time or part-time roles</span>. Whether you need a
-                            <span style={{ color: 'var(--green)' }}>Flutter mobile app</span>, a Java backend, or a complete product — I'd love to hear from you.
+                            <span style={{ color: 'var(--green)' }}>full-time or part-time remote roles</span>. Whether you need a
+                            <span style={{ color: 'var(--green)' }}> Flutter mobile app</span>, a Java backend, or a complete product — I'd love to hear from you.
                         </p>
 
                         <div className="space-y-4">

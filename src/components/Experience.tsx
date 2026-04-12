@@ -21,7 +21,7 @@ const experiences = [
     },
     {
         type: 'work',
-        role: 'Junior Flutter Developer (Intern)',
+        role: 'Flutter App Developer',
         company: 'Self-Employed',
         period: '2025- 2026',
         location: 'Chattogram, Bangladesh',
@@ -40,7 +40,7 @@ const experiences = [
 
     {
         type: 'work',
-        role: 'Junior Java Developer (Intern)',
+        role: 'Java Developer',
         company: 'IIUC',
         period: '2025- 2026',
         location: 'Chattogram, Bangladesh',

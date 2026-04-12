@@ -8,7 +8,7 @@ export default function Footer() {
         >
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
                 <div className="font-mono-custom text-xs" style={{ color: 'var(--muted)' }}>
-                    <span style={{ color: 'var(--cyan)' }}>&lt;YourName /&gt;</span>
+                    <span style={{ color: 'var(--cyan)' }}>&lt;Mohammad Faisal /&gt;</span>
                     {' '}— Flutter & Java Developer
                 </div>
 
@@ -21,8 +21,8 @@ export default function Footer() {
 
                 <div className="flex gap-4">
                     {[
-                        { label: 'GitHub', href: 'https://github.com/yourusername' },
-                        { label: 'LinkedIn', href: 'https://linkedin.com/in/yourusername' },
+                        { label: 'GitHub', href: 'https://github.com/Faisal60177' },
+                        { label: 'LinkedIn', href: 'https://www.linkedin.com/in/mohammad-faisal-7b65ab3b6?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
                     ].map((l) => (
                         <a
                             key={l.label}
