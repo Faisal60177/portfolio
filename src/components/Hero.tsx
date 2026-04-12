@@ -45,14 +45,15 @@ export default function Hero() {
 
             <div className="max-w-5xl w-full mx-auto">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
+
                     {/* Left — Text */}
                     <div>
                         {/* Status */}
                         <div className="flex items-center gap-3 mb-8 animate-fade-up">
                             <div className="status-dot" />
                             <span className="font-mono-custom text-xs" style={{ color: 'var(--green)', letterSpacing: '0.15em' }}>
-                AVAILABLE FOR WORK
-              </span>
+                                AVAILABLE FOR WORK
+                            </span>
                         </div>
 
                         {/* Greeting */}
@@ -66,18 +67,18 @@ export default function Hero() {
                             Mohammad
                             <br />
                             <span style={{ color: 'var(--cyan)' }} className="glow-cyan">
-                Faisal
-              </span>
+                                Faisal
+                            </span>
                         </h1>
 
                         {/* Typewriter role */}
                         <div className="flex items-center gap-2 mt-4 mb-6 animate-fade-up delay-300 h-8">
-              <span className="font-mono-custom text-base" style={{ color: 'var(--green)' }}>
-                &gt;_{' '}
-              </span>
+                            <span className="font-mono-custom text-base" style={{ color: 'var(--green)' }}>
+                                &gt;_{' '}
+                            </span>
                             <span className="font-mono-custom text-base" style={{ color: 'var(--text)' }}>
-                {displayed}
-              </span>
+                                {displayed}
+                            </span>
                             <span className="animate-blink font-mono-custom" style={{ color: 'var(--cyan)' }}>|</span>
                         </div>
 
@@ -119,7 +120,7 @@ export default function Hero() {
                             {[
                                 { label: 'GitHub', href: 'https://github.com/Faisal60177' },
                                 { label: 'LinkedIn', href: 'https://linkedin.com/in/yourusername' },
-                                { label: 'Email', href: 'mohammadfaisal60177@gmail.com' },
+                                { label: 'Email', href: 'mailto:mohammadfaisal60177@gmail.com' },
                             ].map((s) => (
                                 <a
                                     key={s.label}
@@ -140,9 +141,10 @@ export default function Hero() {
                     {/* Right — Visual card */}
                     <div className="hidden md:flex justify-center">
                         <div className="relative animate-float">
+
                             {/* Photo frame */}
                             <div
-                                className="w-72 h-72 relative"
+                                className="w-72 h-72 relative overflow-hidden"
                                 style={{
                                     border: '1px solid rgba(0,245,255,0.3)',
                                     background: 'var(--card)',
@@ -158,22 +160,30 @@ export default function Hero() {
                                             borderBottom: i >= 2 ? '2px solid var(--cyan)' : 'none',
                                             borderLeft: i % 2 === 0 ? '2px solid var(--cyan)' : 'none',
                                             borderRight: i % 2 === 1 ? '2px solid var(--cyan)' : 'none',
+                                            zIndex: 10,
                                         }}
                                     />
                                 ))}
 
-                                {/* Profile image placeholder — replace src with your actual photo */}
+                                {/* Profile photo — shows if /public/profile.png exists */}
                                 <img
                                     src="/profile.png"
                                     alt="Mohammad Faisal"
                                     className="w-full h-full object-cover"
+                                    style={{ position: 'relative', zIndex: 5 }}
                                     onError={(e) => {
-                                        // Fallback if no image
                                         (e.currentTarget as HTMLImageElement).style.display = 'none'
+                                        const fallback = document.getElementById('hero-fallback')
+                                        if (fallback) fallback.style.display = 'flex'
                                     }}
                                 />
 
-
+                                {/* Fallback avatar — hidden if photo loads */}
+                                <div
+                                    id="hero-fallback"
+                                    className="absolute inset-0 flex-col items-center justify-center"
+                                    style={{ display: 'none', background: 'var(--card)', zIndex: 4 }}
+                                >
                                     <div
                                         className="w-24 h-24 rounded-full flex items-center justify-center text-4xl mb-4"
                                         style={{ background: 'rgba(0,245,255,0.1)', border: '2px solid rgba(0,245,255,0.3)' }}
@@ -184,7 +194,7 @@ export default function Hero() {
                                         Add your photo to
                                     </p>
                                     <p className="font-mono-custom text-xs" style={{ color: 'var(--cyan)' }}>
-                                        /public/profile.jpg
+                                        /public/profile.png
                                     </p>
                                 </div>
                             </div>
@@ -202,8 +212,10 @@ export default function Hero() {
                             >
                                 ☕ Java Dev
                             </div>
+
                         </div>
                     </div>
+
                 </div>
 
                 {/* Scroll indicator */}
@@ -211,6 +223,7 @@ export default function Hero() {
                     <span className="font-mono-custom text-xs" style={{ color: 'var(--muted)', letterSpacing: '0.2em' }}>SCROLL</span>
                     <div className="w-px h-12" style={{ background: 'linear-gradient(to bottom, var(--muted), transparent)' }} />
                 </div>
+
             </div>
         </section>
     )
