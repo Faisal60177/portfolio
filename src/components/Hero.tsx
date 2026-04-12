@@ -63,10 +63,10 @@ export default function Hero() {
                             className="text-5xl md:text-7xl font-extrabold leading-none mb-2 animate-fade-up delay-200"
                             style={{ fontFamily: 'Syne, sans-serif', color: '#ffffff' }}
                         >
-                            Your
+                            Mohammad
                             <br />
                             <span style={{ color: 'var(--cyan)' }} className="glow-cyan">
-                Name
+                Faisal
               </span>
                         </h1>
 
@@ -117,9 +117,9 @@ export default function Hero() {
                         {/* Social links */}
                         <div className="flex gap-6 mt-8 animate-fade-up delay-600">
                             {[
-                                { label: 'GitHub', href: 'https://github.com/yourusername' },
+                                { label: 'GitHub', href: 'https://github.com/Faisal60177' },
                                 { label: 'LinkedIn', href: 'https://linkedin.com/in/yourusername' },
-                                { label: 'Email', href: 'mailto:your@email.com' },
+                                { label: 'Email', href: 'mohammadfaisal60177@gmail.com' },
                             ].map((s) => (
                                 <a
                                     key={s.label}
@@ -173,11 +173,7 @@ export default function Hero() {
                                     }}
                                 />
 
-                                {/* Fallback avatar */}
-                                <div
-                                    className="absolute inset-0 flex flex-col items-center justify-center"
-                                    style={{ background: 'var(--card)' }}
-                                >
+
                                     <div
                                         className="w-24 h-24 rounded-full flex items-center justify-center text-4xl mb-4"
                                         style={{ background: 'rgba(0,245,255,0.1)', border: '2px solid rgba(0,245,255,0.3)' }}
