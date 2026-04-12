@@ -1,8 +1,8 @@
 const stats = [
     { value: '2+', label: 'Years Experience' },
-    { value: '15+', label: 'Apps Built' },
+    { value: '5+', label: 'Apps Built' },
     { value: '10+', label: 'Happy Clients' },
-    { value: '5★', label: 'Avg Rating' },
+    { value: '4★', label: 'Avg Rating' },
 ]
 
 export default function About() {
