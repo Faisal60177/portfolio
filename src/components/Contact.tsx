@@ -43,9 +43,9 @@ export default function Contact() {
     }
 
     const contacts = [
-        { icon: '📧', label: 'Email', value: 'your@email.com', href: 'mailto:your@email.com' },
+        { icon: '📧', label: 'Email', value: 'your@email.com', href: 'mailto:mohammadfaisal60177@gmail.com' },
         { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/yourname', href: 'https://linkedin.com/in/yourname' },
-        { icon: '🐱', label: 'GitHub', value: 'github.com/yourusername', href: 'https://github.com/yourusername' },
+        { icon: '🐱', label: 'GitHub', value: 'github.com/yourusername', href: 'https://github.com/Faisal60177' },
         { icon: '📍', label: 'Location', value: 'Chattogram, Bangladesh', href: '#' },
     ]
 
