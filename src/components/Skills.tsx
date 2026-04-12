@@ -2,13 +2,14 @@ import { useEffect, useRef, useState } from 'react'
 
 const skillCategories = [
     {
-        title: 'Mobile Development',
+        title: 'Mobile App Development',
         icon: '📱',
         color: 'var(--cyan)',
         skills: [
-            { name: 'Flutter', level: 90 },
-            { name: 'Dart', level: 88 },
-            { name: 'Android SDK', level: 75 },
+            { name: 'Flutter', level: 95 },
+            { name: 'Dart', level: 90 },
+            { name: 'Android Studio', level: 90 },
+            { name: 'Android SDK', level: 80 },
             { name: 'iOS (via Flutter)', level: 72 },
         ],
     },
@@ -21,6 +22,7 @@ const skillCategories = [
             { name: 'Spring Boot', level: 78 },
             { name: 'REST APIs', level: 82 },
             { name: 'MySQL / PostgreSQL', level: 70 },
+            { name: 'React', level: 60 },
         ],
     },
     {
@@ -29,9 +31,12 @@ const skillCategories = [
         color: '#7c83fd',
         skills: [
             { name: 'BLoC / Cubit', level: 85 },
-            { name: 'Provider / Riverpod', level: 80 },
-            { name: 'Firebase', level: 78 },
+            { name: 'Provider / Riverpod', level: 70 },
             { name: 'GetX', level: 75 },
+            { name: 'Firebase', level: 85 },
+            { name: 'REST API / Dio', level: 80 },
+
+
         ],
     },
 ]
@@ -39,7 +44,7 @@ const skillCategories = [
 const tools = [
     'Android Studio', 'IntelliJ IDEA', 'VS Code', 'Git & GitHub',
     'Firebase', 'Postman', 'Figma', 'REST APIs',
-    'SQLite', 'Hive', 'Docker (basics)', 'CI/CD',
+    'SQLite', 'Hive', 'Shared Preference', 'Docker (basics)', 'CI/CD', 'Google Play Store',
 ]
 
 function SkillBar({ name, level, color }: { name: string; level: number; color: string }) {

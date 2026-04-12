@@ -30,7 +30,7 @@ export default function Navbar() {
             <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
                 {/* Logo */}
                 <a href="#" className="font-mono-custom text-lg font-bold" style={{ color: 'var(--cyan)' }}>
-                    &lt;YourName /&gt;
+                    &lt;Mohammad Faisal /&gt;
                 </a>
 
                 {/* Desktop links */}

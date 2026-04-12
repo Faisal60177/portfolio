@@ -84,8 +84,8 @@ export default function Hero() {
 
                         {/* Bio */}
                         <p className="text-base leading-relaxed mb-8 animate-fade-up delay-400" style={{ color: 'var(--muted)', maxWidth: '480px' }}>
-                            Passionate mobile developer from <span style={{ color: 'var(--cyan)' }}>Chattogram, Bangladesh</span>, crafting
-                            high-performance Flutter apps and robust Java backends. I turn ideas into
+                            Passionate mobile app developer from <span style={{ color: 'var(--cyan)' }}>Chattogram, Bangladesh</span>, crafting
+                            high-performance <span style={{ color: 'var(--cyan)' }}>Flutter apps</span>, and robust Java backends. I turn ideas into
                             beautiful, functional digital experiences.
                         </p>
 
@@ -119,7 +119,7 @@ export default function Hero() {
                         <div className="flex gap-6 mt-8 animate-fade-up delay-600">
                             {[
                                 { label: 'GitHub', href: 'https://github.com/Faisal60177' },
-                                { label: 'LinkedIn', href: 'https://linkedin.com/in/yourusername' },
+                                { label: 'LinkedIn', href: 'https://www.linkedin.com/in/mohammad-faisal-7b65ab3b6?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
                                 { label: 'Email', href: 'mailto:mohammadfaisal60177@gmail.com' },
                             ].map((s) => (
                                 <a
