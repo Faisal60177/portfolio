@@ -1,24 +1,48 @@
 const experiences = [
     {
         type: 'work',
-        role: 'Flutter Developer (Freelance)',
+        role: 'Flutter App Developer (Freelance & Remote)',
         company: 'Self-Employed',
-        period: '2023 — Present',
+        period: '2024 — Present',
         location: 'Chattogram, Bangladesh',
         description: [
-            'Developed 10+ Flutter apps for clients across e-commerce, healthcare, and education sectors',
+            'Experienced Flutter Developer skilled in building high-performance, cross-platform mobile apps.\n' +
+            'Proficient in Dart, state management (State full widgets, BLoC, Cubit, Provider)',
             'Integrated REST APIs, Firebase, and third-party SDKs like payment gateways and maps',
+            'Offline storage(SQLite, Shared Preference)',
+            'Passionate about clean architecture, and writing scalable, maintainable code',
+            'Always learning and staying updated with the latest in Flutter',
             'Maintained 4.8★ average client rating on Fiverr / Upwork',
             'Delivered pixel-perfect UIs from Figma designs with smooth animations',
+            'Developed 5+ Flutter apps for clients across Islamic, e-commerce, healthcare, and education sectors',
         ],
         color: 'var(--cyan)',
         icon: '📱',
     },
     {
         type: 'work',
+        role: 'Junior Flutter Developer (Intern)',
+        company: 'Self-Employed',
+        period: '2025- 2026',
+        location: 'Chattogram, Bangladesh',
+        description: [
+            'Built a full-stack Islamic productivity app using Flutter with Firebase backend, featuring real-time Firestore sync across all devices',
+            'Implemented complete authentication system with email/password and Google Sign-In, including account linking, provider detection, and JWT-secured sessions via Firebase Auth',
+            'Architected a reactive state management layer using GetX with persistent controllers, observable streams, and real-time Firestore listeners',
+            'Developed a full-featured Notes module with CRUD operations, multi-color theming, tag system, pin/archive, bulk selection, grid/list views, and offline-first sync',
+            'Designed a responsive, production-grade UI with Islamic aesthetics — dark green palette, Arabic typography (Amiri), Bismillah decorations, and adaptive layouts for mobile and tablet',
+            'Built a secure multi-provider profile system supporting Google and email/password linking, silent re-authentication, and Firestore-backed user data management',
+            'Implemented bottom navigation shell using IndexedStack for zero-rebuild tab switching, with modular placeholder architecture for future Tasks and Quran Reader features',
+        ],
+        color: 'var(--green)',
+        icon: '☕',
+    },
+
+    {
+        type: 'work',
         role: 'Junior Java Developer (Intern)',
-        company: 'Tech Company Name',
-        period: '2022 — 2023',
+        company: 'IIUC',
+        period: '2025- 2026',
         location: 'Chattogram, Bangladesh',
         description: [
             'Built and maintained REST APIs using Spring Boot for internal tools',
@@ -32,13 +56,15 @@ const experiences = [
     {
         type: 'education',
         role: 'B.Sc. in Computer Science & Engineering',
-        company: 'Your University Name',
-        period: '2019 — 2023',
+        company: 'International Islamic University Chittagone',
+        period: 'Spring 2024 — Autumn 2027',
         location: 'Chattogram, Bangladesh',
         description: [
-            'Graduated with honors — CGPA: 3.7/4.0',
+            'I am studying B.Sc in Computer Science & Engineering(CSE) at International Islamic University Chittagone',
             'Specialized in Software Engineering and Mobile Application Development',
-            'Final year project: Cross-platform health tracking app using Flutter',
+            '2nd year project: 1. Islamic App with Flutter' +
+            '2. Task and Notes App with Flutter' +
+            '3. Student Management System with Jave',
             'Active member of the Programming Club',
         ],
         color: '#ffd700',
@@ -47,10 +73,9 @@ const experiences = [
 ]
 
 const certifications = [
-    { name: 'Flutter & Dart — The Complete Guide', issuer: 'Udemy', year: '2023', icon: '🏆' },
-    { name: 'Java Programming Masterclass', issuer: 'Udemy', year: '2022', icon: '🏆' },
-    { name: 'Spring Boot Microservices', issuer: 'Coursera', year: '2023', icon: '🏆' },
-    { name: 'Firebase for Flutter', issuer: 'Google', year: '2023', icon: '🏆' },
+    { name: 'Flutter App Development  — Batch 4 ', issuer: 'Interactive Cares', year: '2025', icon: '🏆' },
+    { name: 'Flutter & Dart — The Complete Guide', issuer: 'Udemy', year: '2025', icon: '🏆' },
+    { name: 'Java Programming Beginner to Master', issuer: 'Udemy', year: '2025', icon: '🏆' },
 ]
 
 export default function Experience() {
