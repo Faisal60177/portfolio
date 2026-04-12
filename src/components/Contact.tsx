@@ -43,9 +43,9 @@ export default function Contact() {
     }
 
     const contacts = [
-        { icon: '📧', label: 'Email', value: 'your@email.com', href: 'mailto:mohammadfaisal60177@gmail.com' },
-        { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/yourname', href: 'https://linkedin.com/in/yourname' },
-        { icon: '🐱', label: 'GitHub', value: 'github.com/yourusername', href: 'https://github.com/Faisal60177' },
+        { icon: '📧', label: 'Email', value: 'mohammadfaisal60177@gmail', href: 'mailto:mohammadfaisal60177@gmail.com' },
+        { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/Mohammad Faisal', href: 'https://www.linkedin.com/in/mohammad-faisal-7b65ab3b6?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
+        { icon: '🐱', label: 'GitHub', value: 'https://github.com/Faisal60177', href: 'https://github.com/Faisal60177' },
         { icon: '📍', label: 'Location', value: 'Chattogram, Bangladesh', href: '#' },
     ]
 
