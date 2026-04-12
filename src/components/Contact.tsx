@@ -141,7 +141,7 @@ export default function Contact() {
                                         name="name"
                                         value={form.name}
                                         onChange={handleChange}
-                                        placeholder="Your name"
+                                        placeholder="Mohammad Faisal"
                                         style={inputStyle}
                                         onFocus={(e) => (e.target.style.borderColor = 'var(--cyan)')}
                                         onBlur={(e) => (e.target.style.borderColor = 'var(--border)')}
@@ -155,7 +155,7 @@ export default function Contact() {
                                         name="email"
                                         value={form.email}
                                         onChange={handleChange}
-                                        placeholder="your@email.com"
+                                        placeholder="mohammadfaisal60177@gmail.com"
                                         style={inputStyle}
                                         onFocus={(e) => (e.target.style.borderColor = 'var(--cyan)')}
                                         onBlur={(e) => (e.target.style.borderColor = 'var(--border)')}

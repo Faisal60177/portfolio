@@ -87,21 +87,34 @@ export default function About() {
 
                         <div className="space-y-4 mb-8" style={{ color: 'var(--muted)', lineHeight: '1.8' }}>
                             <p>
-                                I'm a passionate <span style={{ color: 'var(--text)' }}>Flutter App Developer</span> and{' '}
-                                <span style={{ color: 'var(--text)' }}>Java Developer</span> based in Chattogram, Bangladesh.
-                                I specialize in building beautiful, performant mobile applications that run seamlessly
-                                on both iOS and Android from a single codebase.
+                                I'm a passionate <span style={{ color: 'var(--text)' }}>Flutter Mobile Developer</span> based in{' '}
+                                <span style={{ color: 'var(--text)' }}>Chattogram, Bangladesh</span>, specialized in building
+                                beautiful, high-performance Android applications. I craft pixel-perfect cross-platform experiences
+                                using <span style={{ color: 'var(--cyan)' }}>Dart</span> and{' '}
+                                <span style={{ color: 'var(--cyan)' }}>Flutter</span>, with a strong focus on clean architecture,
+                                scalable code, and smooth user experiences that feel truly native.
                             </p>
                             <p>
-                                With a deep love for clean architecture and pixel-perfect UI, I craft apps using
-                                Flutter with state management solutions like <span style={{ color: 'var(--cyan)' }}>BLoC</span>,{' '}
-                                <span style={{ color: 'var(--cyan)' }}>Provider</span>, and{' '}
-                                <span style={{ color: 'var(--cyan)' }}>Riverpod</span>. On the backend, I build
-                                robust REST APIs with <span style={{ color: 'var(--green)' }}>Java Spring Boot</span>.
+                                My Flutter toolkit includes state management with{' '}
+                                <span style={{ color: 'var(--cyan)' }}>GetX</span>,{' '}
+                                <span style={{ color: 'var(--cyan)' }}>BLoC</span>,{' '}
+                                <span style={{ color: 'var(--cyan)' }}>Cubit</span>, and{' '}
+                                <span style={{ color: 'var(--cyan)' }}>Provider</span> — paired with{' '}
+                                <span style={{ color: 'var(--cyan)' }}>Firebase</span> for real-time backends,
+                                REST API integration, offline storage with{' '}
+                                <span style={{ color: 'var(--cyan)' }}>SQLite</span> and{' '}
+                                <span style={{ color: 'var(--cyan)' }}>Shared Preferences</span>,
+                                and rich animations that bring interfaces to life.
+                                I also work with <span style={{ color: 'var(--green)' }}>Java</span> and{' '}
+                                <span style={{ color: 'var(--green)' }}>Spring Boot</span> when backend
+                                work calls for it.
                             </p>
                             <p>
-                                When I'm not coding, I'm exploring new Flutter packages, contributing to open source,
-                                or drinking coffee and brainstorming the next big app idea.
+                                Currently building <span style={{ color: 'var(--text)' }}>Deen Companion</span> —
+                                a full-featured Islamic app with Prayer Times, Quran Reader, Duas, Tasbih,
+                                and Qibla — combining my love for Flutter with meaningful, purpose-driven software.
+                                When I'm not coding, I'm exploring new Flutter packages, studying clean architecture
+                                patterns, or brainstorming the next app that solves a real problem.
                             </p>
                         </div>
 

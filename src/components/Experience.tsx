@@ -62,9 +62,9 @@ const experiences = [
         description: [
             'I am studying B.Sc in Computer Science & Engineering(CSE) at International Islamic University Chittagone',
             'Specialized in Software Engineering and Mobile Application Development',
-            '2nd year project: 1. Islamic App with Flutter' +
-            '2. Task and Notes App with Flutter' +
-            '3. Student Management System with Jave',
+            '2nd year project: Islamic App with Flutter\n' +
+            'Task and Notes App with Flutter\n' +
+            'Student Management System with Jave\n',
             'Active member of the Programming Club',
         ],
         color: '#ffd700',
