@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 const roles = [
     'Flutter App Developer',
+    'Java Developer',
     'Problem Solver',
 ]
 
@@ -118,6 +119,7 @@ export default function Hero() {
                             {[
                                 { label: 'GitHub', href: 'https://github.com/yourusername' },
                                 { label: 'LinkedIn', href: 'https://linkedin.com/in/yourusername' },
+                                { label: 'Email', href: 'mailto:your@email.com' },
                             ].map((s) => (
                                 <a
                                     key={s.label}
@@ -162,7 +164,8 @@ export default function Hero() {
 
                                 {/* Profile image placeholder — replace src with your actual photo */}
                                 <img
-                                    src="/profile.jpg"
+                                    src="/profile.png"
+                                    alt="Mohammad Faisal"
                                     className="w-full h-full object-cover"
                                     onError={(e) => {
                                         // Fallback if no image
