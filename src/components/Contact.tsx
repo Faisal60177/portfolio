@@ -141,7 +141,7 @@ export default function Contact() {
                                         name="name"
                                         value={form.name}
                                         onChange={handleChange}
-                                        placeholder="Mohammad Faisal"
+                                        placeholder="Your Name"
                                         style={inputStyle}
                                         onFocus={(e) => (e.target.style.borderColor = 'var(--cyan)')}
                                         onBlur={(e) => (e.target.style.borderColor = 'var(--border)')}
@@ -155,7 +155,7 @@ export default function Contact() {
                                         name="email"
                                         value={form.email}
                                         onChange={handleChange}
-                                        placeholder="mohammadfaisal60177@gmail.com"
+                                        placeholder="Your email.com"
                                         style={inputStyle}
                                         onFocus={(e) => (e.target.style.borderColor = 'var(--cyan)')}
                                         onBlur={(e) => (e.target.style.borderColor = 'var(--border)')}
@@ -220,7 +220,7 @@ export default function Contact() {
 
                             <p className="font-mono-custom text-xs text-center" style={{ color: 'var(--muted)' }}>
                                 Or email me directly at{' '}
-                                <a href="mailto:your@email.com" style={{ color: 'var(--cyan)' }}>
+                                <a href="mailto:mohammadfaisal60177@gmail" style={{ color: 'var(--cyan)' }}>
                                     your@email.com
                                 </a>
                             </p>
