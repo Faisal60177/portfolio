@@ -87,7 +87,7 @@ export default function About() {
 
                         <div className="space-y-4 mb-8" style={{ color: 'var(--muted)', lineHeight: '1.8' }}>
                             <p>
-                                I'm a passionate <span style={{ color: 'var(--text)' }}>Flutter Mobile Developer</span> based in{' '}
+                                I'm a passionate <span style={{ color: 'var(--text)' }}>Flutter Mobile App Developer</span> based in{' '}
                                 <span style={{ color: 'var(--text)' }}>Chattogram, Bangladesh</span>, specialized in building
                                 beautiful, high-performance Android applications. I craft pixel-perfect cross-platform experiences
                                 using <span style={{ color: 'var(--cyan)' }}>Dart</span> and{' '}
@@ -111,7 +111,7 @@ export default function About() {
                             </p>
                             <p>
                                 Currently building <span style={{ color: 'var(--text)' }}>Deen Companion</span> —
-                                a full-featured Islamic app with Prayer Times, Quran Reader, Duas, Tasbih,
+                                a full-featured <span style={{ color: 'var(--text)' }}>Islamic App</span> with Prayer Times, Quran Reader, Duas, Tasbih,
                                 and Qibla — combining my love for Flutter with meaningful, purpose-driven software.
                                 When I'm not coding, I'm exploring new Flutter packages, studying clean architecture
                                 patterns, or brainstorming the next app that solves a real problem.

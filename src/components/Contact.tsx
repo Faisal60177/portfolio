@@ -72,8 +72,8 @@ export default function Contact() {
                         <p className="text-base leading-relaxed mb-8" style={{ color: 'var(--muted)' }}>
                             I'm currently available for{' '}
                             <span style={{ color: 'var(--cyan)' }}>freelance projects</span> and{' '}
-                            <span style={{ color: 'var(--green)' }}>full-time roles</span>. Whether you need a
-                            Flutter mobile app, a Java backend, or a complete product — I'd love to hear from you.
+                            <span style={{ color: 'var(--green)' }}>full-time or part-time roles</span>. Whether you need a
+                            <span style={{ color: 'var(--green)' }}>Flutter mobile app</span>, a Java backend, or a complete product — I'd love to hear from you.
                         </p>
 
                         <div className="space-y-4">
@@ -221,7 +221,7 @@ export default function Contact() {
                             <p className="font-mono-custom text-xs text-center" style={{ color: 'var(--muted)' }}>
                                 Or email me directly at{' '}
                                 <a href="mailto:mohammadfaisal60177@gmail" style={{ color: 'var(--cyan)' }}>
-                                    your@email.com
+                                    mohammadfaisal60177@gmail.com
                                 </a>
                             </p>
                         </div>
