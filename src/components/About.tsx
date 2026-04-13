@@ -33,43 +33,90 @@ export default function About() {
 
                         {/* Terminal content */}
                         <div className="p-6 font-mono-custom text-sm leading-8" style={{ color: 'var(--text)' }}>
-                            <p style={{ color: 'var(--muted)' }}>// My Info</p>
+
+                            <p style={{ color: 'var(--muted)' }}>// Assalamu Alaikum 🌙 — Welcome to my portfolio</p>
+
                             <p>
                                 <span style={{ color: 'var(--cyan)' }}>class </span>
-                                <span style={{ color: 'var(--green)' }}>Developer </span>
+                                <span style={{ color: 'var(--green)' }}>MohammadFaisal </span>
+                                <span style={{ color: 'var(--cyan)' }}>extends </span>
+                                <span style={{ color: 'var(--green)' }}>FlutterDeveloper </span>
                                 {'{ '}
                             </p>
+
                             <div className="ml-4">
+
+                                <p style={{ color: 'var(--muted)' }}>// Identity</p>
                                 <p>
+                                    <span style={{ color: 'var(--cyan)' }}>final </span>
                                     <span style={{ color: 'var(--cyan)' }}>String </span>
-                                    name = <span style={{ color: '#ffd700' }}>"Your Name"</span>;
+                                    name = <span style={{ color: '#ffd700' }}>"Mohammad Faisal"</span>;
                                 </p>
                                 <p>
+                                    <span style={{ color: 'var(--cyan)' }}>final </span>
                                     <span style={{ color: 'var(--cyan)' }}>String </span>
-                                    location = <span style={{ color: '#ffd700' }}>"Chattogram, BD"</span>;
+                                    location = <span style={{ color: '#ffd700' }}>"Chattogram, Bangladesh 🇧🇩"</span>;
                                 </p>
                                 <p>
+                                    <span style={{ color: 'var(--cyan)' }}>final </span>
                                     <span style={{ color: 'var(--cyan)' }}>String </span>
-                                    role = <span style={{ color: '#ffd700' }}>"Flutter Dev"</span>;
+                                    role = <span style={{ color: '#ffd700' }}>"Flutter Mobile Developer"</span>;
                                 </p>
                                 <p>
+                                    <span style={{ color: 'var(--cyan)' }}>final </span>
                                     <span style={{ color: 'var(--cyan)' }}>int </span>
                                     experience = <span style={{ color: '#ff8c00' }}>2</span>;
+                                    <span style={{ color: 'var(--muted)' }}> // years</span>
                                 </p>
+
+                                <p className="mt-2" style={{ color: 'var(--muted)' }}>// Primary Stack</p>
                                 <p>
+                                    <span style={{ color: 'var(--cyan)' }}>final </span>
                                     <span style={{ color: 'var(--cyan)' }}>List</span>
-                                    {'<String>'} loves = [
+                                    {'<String>'} stack = [
                                 </p>
                                 <div className="ml-4">
-                                    <p><span style={{ color: '#ffd700' }}>"Flutter"</span>,</p>
-                                    <p><span style={{ color: '#ffd700' }}>"Java"</span>,</p>
-                                    <p><span style={{ color: '#ffd700' }}>"Clean Code"</span>,</p>
-                                    <p><span style={{ color: '#ffd700' }}>"Coffee ☕"</span>,</p>
+                                    <p><span style={{ color: '#ffd700' }}>"Flutter"</span>, <span style={{ color: '#ffd700' }}>"Dart"</span>,</p>
+                                    <p><span style={{ color: '#ffd700' }}>"Firebase"</span>, <span style={{ color: '#ffd700' }}>"Firestore"</span>,</p>
+                                    <p><span style={{ color: '#ffd700' }}>"GetX"</span>, <span style={{ color: '#ffd700' }}>"BLoC"</span>, <span style={{ color: '#ffd700' }}>"Provider"</span>,</p>
+                                    <p><span style={{ color: '#ffd700' }}>"REST API"</span>, <span style={{ color: '#ffd700' }}>"Dio"</span>,</p>
+                                    <p><span style={{ color: '#4CAF82' }}>"Java"</span>, <span style={{ color: '#4CAF82' }}>"Spring Boot"</span>,</p>
                                 </div>
                                 <p>];</p>
+
+                                <p className="mt-2" style={{ color: 'var(--muted)' }}>// Currently Building</p>
+                                <p>
+                                    <span style={{ color: 'var(--cyan)' }}>final </span>
+                                    <span style={{ color: 'var(--cyan)' }}>String </span>
+                                    currentProject = <span style={{ color: '#ffd700' }}>"Deen Companion 🕌"</span>;
+                                    <span style={{ color: 'var(--muted)' }}> // Islamic app</span>
+                                </p>
+
+                                <p className="mt-2" style={{ color: 'var(--muted)' }}>// Values</p>
+                                <p>
+                                    <span style={{ color: 'var(--cyan)' }}>final </span>
+                                    <span style={{ color: 'var(--cyan)' }}>List</span>
+                                    {'<String>'} values = [
+                                </p>
+                                <div className="ml-4">
+                                    <p><span style={{ color: '#ffd700' }}>"Clean Architecture"</span>,</p>
+                                    <p><span style={{ color: '#ffd700' }}>"Pixel-Perfect UI"</span>,</p>
+                                    <p><span style={{ color: '#ffd700' }}>"Purposeful Software"</span>,</p>
+                                </div>
+                                <p>];</p>
+
+                                <p className="mt-2" style={{ color: 'var(--muted)' }}>// Fun fact</p>
+                                <p>
+                                    <span style={{ color: 'var(--cyan)' }}>bool </span>
+                                    poweredBy = <span style={{ color: '#ff8c00' }}>true</span>;
+                                    <span style={{ color: 'var(--muted)' }}> // coffee ☕ & curiosity</span>
+                                </p>
+
                             </div>
+
                             <p>{'}'}</p>
                             <p className="mt-2 animate-blink" style={{ color: 'var(--cyan)' }}>▋</p>
+
                         </div>
                     </div>
 
