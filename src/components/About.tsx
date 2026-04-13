@@ -40,7 +40,7 @@ export default function About() {
                                 <span style={{ color: 'var(--cyan)' }}>class </span>
                                 <span style={{ color: 'var(--green)' }}>MohammadFaisal </span>
                                 <span style={{ color: 'var(--cyan)' }}>extends </span>
-                                <span style={{ color: 'var(--green)' }}>FlutterDeveloper </span>
+                                <span style={{ color: 'var(--green)' }}>SoftwareDeveloper </span>
                                 {'{ '}
                             </p>
 
