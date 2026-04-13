@@ -17,19 +17,6 @@ const projects = [
 
     {
         id: 2,
-        title: 'ShopEase — E-Commerce App',
-        category: 'Flutter',
-        description:
-            'A full-featured e-commerce mobile app with product listing, cart, payment gateway integration, and real-time order tracking. Built with Flutter and Firebase backend.',
-        tech: ['Flutter', 'Dart', 'Firebase', 'BLoC', 'Stripe API'],
-        github: 'https://github.com/yourusername/shopease',
-        demo: '#',
-        color: 'var(--cyan)',
-        icon: '🛒',
-        featured: true,
-    },
-    {
-        id: 3,
         title: 'DoAll Notes',
         category: 'Flutter',
         description:
@@ -43,7 +30,7 @@ const projects = [
     },
 
     {
-        id: 4,
+        id: 3,
         title: 'Student Management System',
         category: 'Java',
         description:
@@ -56,7 +43,7 @@ const projects = [
         featured: false,
     },
     {
-        id: 5,
+        id: 4,
         title: 'Calculator',
         category: 'Flutter',
         description:
@@ -70,7 +57,7 @@ const projects = [
     },
 
     {
-        id: 6,
+        id: 5,
         title: 'Country Explorer',
         category: 'Flutter',
         description:
