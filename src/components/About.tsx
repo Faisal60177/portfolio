@@ -157,8 +157,8 @@ export default function About() {
                                 work calls for it.
                             </p>
                             <p>
-                                Currently building <span style={{ color: 'var(--text)' }}>Deen Companion</span> —
-                                a full-featured <span style={{ color: 'var(--text)' }}>Islamic App</span> with Prayer Times, Quran Reader, Duas, Tasbih,
+                                Currently working with <span style={{ color: 'var(--text)' }}>Muslim Life - Deen Companion</span> —
+                                a full-featured <span style={{ color: 'var(--text)' }}>Islamic App</span> with Prayer Times, Quran Reader, Duas, Inspirational Quotes, Masail, Tasbih,
                                 and Qibla — combining my love for Flutter with meaningful, purpose-driven software.
                                 When I'm not coding, I'm exploring new Flutter packages, studying clean architecture
                                 patterns, or brainstorming the next app that solves a real problem.
