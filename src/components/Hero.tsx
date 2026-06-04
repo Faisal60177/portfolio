@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 
 const roles = [
-    'Flutter App Developer',
-    'Java Developer',
+    'Flutter Mobile App Developer',
     'Problem Solver',
 ]
 

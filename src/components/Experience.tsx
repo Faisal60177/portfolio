@@ -73,6 +73,7 @@ const experiences = [
 ]
 
 const certifications = [
+    { name: 'CS50x: Introduction to Computer Science', issuer: 'Harvard / edX', year: '2025', icon: '🏆' },
     { name: 'Flutter App Development  — Batch 4 ', issuer: 'Interactive Cares', year: '2025', icon: '🏆' },
     { name: 'Flutter & Dart — The Complete Guide', issuer: 'Udemy', year: '2025', icon: '🏆' },
     { name: 'Java Programming Beginner to Master', issuer: 'Udemy', year: '2025', icon: '🏆' },
