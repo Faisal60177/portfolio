@@ -3,10 +3,10 @@ import { useState } from 'react'
 const projects = [
     {
         id: 1,
-        title: 'Deen Companion',
+        title: 'Muslim Life - Islamic App',
         category: 'Flutter',
         description:
-            'A comprehensive Islamic companion app featuring real-time Prayer Times, full Quran Reader and bookmarks, Duas library, digital Tasbih counter with haptic feedback, Qibla compass, Hijri calendar, and Firebase-synced user profiles — all wrapped in a beautiful dark Islamic UI with Arabic typography.',
+            'A comprehensive Islamic companion app featuring real-time Prayer Times, full Quran Reader and bookmarks, Duas library, Inspirational Quotes, Masail, digital Tasbih counter with haptic feedback, Qibla compass, Hijri calendar, and Firebase-synced user profiles — all wrapped in a beautiful dark Islamic UI with Arabic typography.',
         tech: ['Flutter', 'Dart', 'Firebase', 'GetX', 'Firestore', 'GPS / Compass', 'Local Notifications'],
         github: 'https://github.com/Faisal60177/islami_app/tree/update_1',
         demo: '#',
@@ -17,15 +17,15 @@ const projects = [
 
     {
         id: 2,
-        title: 'DoAll Notes',
+        title: 'Health and Fitness App',
         category: 'Flutter',
         description:
-            'A full-featured notes app with real-time Firebase sync, complete CRUD operations, multi-color note theming, tag system with filtering, pin and archive support, bulk multi-select actions, grid and list view toggle, and a rich note editor with word count. Features Google and email authentication with Firestore-backed user profiles, offline-aware reactive streams, and a beautiful dark Islamic green UI with responsive layouts for phones and tablets.',
-        tech: ['Flutter', 'Dart', 'Firebase', 'Firestore', 'GetX', 'Firebase Auth'],
-        github: 'https://github.com/Faisal60177/DO_ALL_NOTES',
+            'A comprehensive health companion app built with Flutter and Firebase. Features step and activity tracking, structured workout plans with exercise guides, BMI and body stats calculator, diet and calorie tracking, prayer and sleep monitoring, and progress charts with full history. Powered by Provider for reactive state management and Firebase for real-time sync and authentication, with a clean responsive UI optimized for both phones and tablets.',
+        tech: ['Flutter', 'Dart', 'Firebase', 'Firestore', 'Provider', 'Firebase Auth'],
+        github: 'https://github.com/Faisal60177/health_and_fitness',
         demo: '#',
         color: 'var(--green)',
-        icon: '📝',
+        icon: '💪',
         featured: true,
     },
 
