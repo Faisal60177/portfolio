@@ -7,8 +7,8 @@ const projects = [
         category: 'Flutter',
         description:
             'A comprehensive Islamic companion app featuring real-time Prayer Times, full Quran Reader and bookmarks, Duas library, Inspirational Quotes, Masail, digital Tasbih counter with haptic feedback, Qibla compass, Hijri calendar, and Firebase-synced user profiles — all wrapped in a beautiful dark Islamic UI with Arabic typography.',
-        tech: ['Flutter', 'Dart', 'Firebase', 'GetX', 'Firestore', 'GPS / Compass', 'Local Notifications'],
-        github: 'https://github.com/Faisal60177/islami_app/tree/update_1',
+        tech: ['Flutter', 'Dart', 'Firebase', 'Riverpod', 'SQFlite', 'Firestore', 'GPS / Compass', 'Local Notifications'],
+        github: 'https://github.com/Faisal60177/islami_app',
         demo: '#',
         color: 'var(--green)',
         icon: '🕌',
@@ -21,7 +21,7 @@ const projects = [
         category: 'Flutter',
         description:
             'A comprehensive health companion app built with Flutter and Firebase. Features step and activity tracking, structured workout plans with exercise guides, BMI and body stats calculator, diet and calorie tracking, prayer and sleep monitoring, and progress charts with full history. Powered by Provider for reactive state management and Firebase for real-time sync and authentication, with a clean responsive UI optimized for both phones and tablets.',
-        tech: ['Flutter', 'Dart', 'Firebase', 'Firestore', 'Provider', 'Firebase Auth'],
+        tech: ['Flutter', 'Dart', 'Firebase', 'Firestore', 'Provider', 'Riverpod', 'Firebase Auth'],
         github: 'https://github.com/Faisal60177/health_and_fitness',
         demo: '#',
         color: 'var(--green)',
@@ -31,6 +31,20 @@ const projects = [
 
     {
         id: 3,
+        title: 'E-Commerce App',
+        category: 'Flutter',
+        description:
+            'A full-featured e-commerce app built with a REST API backend, offering complete product management, secure role-based authentication, a smooth cart and checkout flow with discount support, and real-time order tracking with full order history.',
+        tech: ['Flutter', 'Dart', 'REST API', 'Provider/Bloc', 'SQFlite'],
+        github: 'https://github.com/Faisal60177/e_commerce_app',
+        demo: '#',
+        color: 'var(--blue)',
+        icon: '🛒',
+        featured: true,
+    },
+
+    {
+        id: 4,
         title: 'Student Management System',
         category: 'Java',
         description:
@@ -40,10 +54,10 @@ const projects = [
         demo: '#',
         color: 'var(--cyan)',
         icon: '🎓',
-        featured: false,
+        featured: true,
     },
     {
-        id: 4,
+        id: 5,
         title: 'Calculator',
         category: 'Flutter',
         description:
@@ -57,7 +71,7 @@ const projects = [
     },
 
     {
-        id: 5,
+        id: 6,
         title: 'Country Explorer',
         category: 'Flutter',
         description:
